@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "Tab Cycle",
+  "version": "1.0",
+  "description": "Nimble tab navigation technique",
+  "homepage_url": "https://github.com/mpontus/firefox-tab-cycle",
+  "background": {
+    "scripts": [
+      "tab-cycle.js"
+    ]
+  },
+  "commands": {
+    "bury-active-tab": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+N"
+      },
+      "description": "Sends active tab to the back"
+    },
+    "raise-last-tab": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+P"
+      },
+      "description": "Brings last tab to the front"
+    }
+  }
+}
