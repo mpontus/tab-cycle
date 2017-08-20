@@ -3,7 +3,7 @@
   "name": "Tab Cycle",
   "version": "1.0",
   "description": "Nimble tab navigation technique",
-  "homepage_url": "https://github.com/mpontus/firefox-tab-cycle",
+  "homepage_url": "https://github.com/mpontus/tab-cycle",
   "background": {
     "scripts": [
       "handlers.js",
