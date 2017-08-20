@@ -12,13 +12,13 @@
   "commands": {
     "bury-active-tab": {
       "suggested_key": {
-        "default": "Ctrl+Shift+N"
+        "default": "Ctrl+Left"
       },
       "description": "Sends active tab to the back"
     },
     "raise-last-tab": {
       "suggested_key": {
-        "default": "Ctrl+Shift+P"
+        "default": "Ctrl+Right"
       },
       "description": "Brings last tab to the front"
     }
