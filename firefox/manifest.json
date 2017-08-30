@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
   "name": "Tab Cycle",
-  "version": "1.0",
-  "description": "Nimble tab navigation technique",
+  "version": "1.1",
+  "description": "Keep active tab at the front",
   "homepage_url": "https://github.com/mpontus/tab-cycle",
   "background": {
     "scripts": [
@@ -15,13 +15,13 @@
       "suggested_key": {
         "default": "Alt+N"
       },
-      "description": "Sends active tab to the back"
+      "description": "Cycle tabs forwards"
     },
     "raise-last-tab": {
       "suggested_key": {
         "default": "Alt+P"
       },
-      "description": "Brings last tab to the front"
+      "description": "Cycle tabs backwards"
     }
   }
 }
