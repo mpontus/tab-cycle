@@ -1,0 +1,11 @@
+{
+  "name": "active-tab-in-front",
+  "main": "./lib/active-tab-in-front",
+  "version": "1.1.2",
+  "description": "Keep active item at the front of all other items",
+  "repository": "https://github.com/mpontus/atom-active-tab-in-front",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}

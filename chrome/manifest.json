@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Active Tab in Front",
+  "description": "This extension keeps active browser tab in front of all others",
+  "version": "1.0",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "commands": {
+    "bury-tab": {
+      "suggested_key": {
+        "default": "Ctrl+PageDown"
+      },
+      "description": "Jump to the next open tab"
+    }
+  },
+  "permissions": ["tabs", "commands"]
+}
