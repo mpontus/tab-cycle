@@ -1,18 +1,25 @@
 {
   "manifest_version": 2,
-  "name": "Active Tab in Front",
-  "description": "This extension keeps active browser tab in front of all others",
-  "version": "1.0",
+  "name": "Tab Cycle",
+  "description": "Keep active tab at the front",
+  "version": "1.1",
+  "homepage_url": "https://github.com/mpontus/tab-cycle",
   "background": {
-    "scripts": ["background.js"],
+    "scripts": ["handlers.js", "commands.js"],
     "persistent": false
   },
   "commands": {
-    "bury-tab": {
+    "bury-active-tab": {
       "suggested_key": {
-        "default": "Ctrl+PageDown"
+        "default": "Alt+P"
       },
-      "description": "Jump to the next open tab"
+      "description": "Cycle tabs forward"
+    },
+    "raise-last-tab": {
+      "suggested_key": {
+        "default": "Alt+N"
+      },
+      "description": "Cycle tabs backward"
     }
   },
   "permissions": ["tabs", "commands"]
