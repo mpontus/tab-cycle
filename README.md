@@ -1,17 +1,24 @@
-# Tab Cycle for Firefox
+# Tab Cycle
 
-Tab management mechanism to simplify navigating too many tabs.
+> Cross-platform extension for tab navigation
 
-## Features
+This extension brings currently active tab to the front thus making it easier to navigate between few most recent tabs.
 
-- Brings active tab to the front
-- Provides a specially made command for cycling forward through tabs
-- Provides symmetrical key bindings for tab cycling
-- Activates first tab after moving a tab
-- Moves active tab forward on startup
-- Moves active tab forward on window focus
+## Usage 
 
-## Keybindings
+Switch from N-th most recent buffer with C-<N>/M-<N>:
 
-- `Ctrl+Right` cycles forward through tabs
-- `Ctrl+Left` cycles backward through tabs
+<<insert gif here>>
+
+Cycle buffers forward with M-n:
+
+<<insert gif here>>
+
+Cycle buffers backward with M-p:
+
+<<insert gif here>>
+
+## License
+
+Later.
+
