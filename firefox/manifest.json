@@ -1,25 +1,22 @@
 {
   "manifest_version": 2,
   "name": "Tab Cycle",
-  "version": "1.1",
   "description": "Keep active tab at the front",
+  "version": "1.1",
   "homepage_url": "https://github.com/mpontus/tab-cycle",
   "background": {
-    "scripts": [
-      "handlers.js",
-      "commands.js"
-    ]
+    "scripts": ["handlers.js", "commands.js"]
   },
   "commands": {
     "bury-active-tab": {
       "suggested_key": {
-        "default": "Alt+N"
+        "default": "Alt+P"
       },
       "description": "Cycle tabs forwards"
     },
     "raise-last-tab": {
       "suggested_key": {
-        "default": "Alt+P"
+        "default": "Alt+N"
       },
       "description": "Cycle tabs backwards"
     }

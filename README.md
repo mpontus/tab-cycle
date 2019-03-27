@@ -4,7 +4,15 @@
 
 This extension brings currently active tab to the front thus making it easier to navigate between few most recent tabs.
 
-## Usage 
+## Shortcuts Reference
+
+|                                | FireFox                                             | Chrome                                              | Visual Studio Code                                  | Atom                                                |
+| ------------------------------ | --------------------------------------------------- | --------------------------------------------------- | --------------------------------------------------- | --------------------------------------------------- |
+| Cycle Tabs Forward             | Alt+N                                               | Alt+N                                               | Alt+N                                               | Alt+N                                               |
+| Cycle Tabs Backward            | Alt+P                                               | Alt+P                                               | Alt+P                                               | Alt+P                                               |
+| Switch to N-th most recent tab | Win: Ctrl+<N> <br/> Linux: Ctrl+<N> <br> Mac: ⌘+<N> | Win: Ctrl+<N> <br/> Linux: Ctrl+<N> <br> Mac: ⌘+<N> | Win: Ctrl+<N> <br/> Linux: Ctrl+<N> <br> Mac: ⌘+<N> | Win: Ctrl+<N> <br/> Linux: Ctrl+<N> <br> Mac: ⌘+<N> |
+
+## Usage
 
 Switch from N-th most recent buffer with C-<N>/M-<N>:
 
@@ -21,4 +29,3 @@ Cycle buffers backward with M-p:
 ## License
 
 Later.
-
